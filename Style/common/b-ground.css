@@ -1,0 +1,81 @@
+.bg-left{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    margin: 0;
+    min-width: 500px;
+    background-color: #F4A950;
+    text-align: center;
+}
+    .bg-left .logo{
+        width: 300px;
+        height: 300px;
+        background-repeat: no-repeat;
+        position: relative;
+        display: inline-block;
+        background-image: url("logo1.png");
+        background-position: center;
+        top:140px;
+    }
+    .bg-left .text_welcome{
+        color: #161B21;
+        font-size: 30px;
+        font-weight: bold;
+        position: relative;
+        width: 100%;
+        display: inline-block;
+        top:160px;
+    }
+.bg-right{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    right: 0;
+}
+    .bg-right .text_welcome2{
+        position: fixed;
+        font-weight: bold;
+        font-size: 35px;
+        color: #161B21;
+        top: 350px;
+        left: 60%;
+        width: max-content;
+    }
+    .bg-right .form-login{
+        position: fixed;
+        left: 60%;
+        top: 400px;
+        width: 500px;
+
+    }
+    .bg-right .btn-login{
+        color: white;
+        background-color: #161B21;
+        border: none;
+        border-radius: 8px;
+        font-size: 25px;
+        height: 50px;
+        margin-top: 35px;
+        cursor: pointer;
+    }
+    .bg-right .btn-login:hover {
+        background-color: #000000;
+    }
+
+    .bg-right .text-cr{
+        right:0;
+        bottom: 0;
+        position: absolute;
+    }
+
+
+
+
+
+.notice{
+    position: fixed;
+    width: 300px;
+    height: 50px;
+    right: 0;
+    margin-right: 50px;
+}
